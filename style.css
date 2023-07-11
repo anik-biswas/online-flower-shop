@@ -12,6 +12,7 @@ body {
     border: 0px;
     border-radius: 5px;
     margin-top: 5px;
+    color: #fff;
 
 }
 
@@ -141,3 +142,31 @@ main section {
     line-height: 35px;
 }
 
+.special-offer {
+    padding: 50px 140px 50px 260px;
+    background: rgba(229, 84, 115, 0.05);
+
+}
+
+.special-offer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.special-offer-title {
+    color: #272727;
+    font-size: 35px;
+    font-weight: 800;
+}
+.special-offer-description {
+    margin-top: 20px ;
+    width: 450px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.btn-align {
+    margin: 20px 0px 0px 170px;
+}
