@@ -49,23 +49,74 @@ main section {
     margin-top: 100px;
 }
 
-.feature-flower {
-    align-items: center;
-
-}
-
 .section-title {
-    text-align: center;
     color: #272727;
     font-size: 25px;
     font-style: normal;
     font-weight: 800;
 }
 .section-description {
-    text-align: center;
     width: 500px;
-    margin-left: 500px;
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
+    margin-left:150px;
    
+}
+.feature-flower {
+    margin: 0 240px 0px 240px;
+    padding: 100px;
+    align-items: center;
+    text-align: center;
+}
+
+.feature-flower-container {
+    display: flex;
+    justify-content: space-around;
+    gap:15px;
+    margin-top: 20px;
+}
+.feature-image1 {
+    height: 450px ;
+    width:350px ;
+    margin-bottom: 0px;
+    border: 0px;
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(167, 33, 98, 0.15);
+    background-image: url(image/pngwing\ 6.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.feature-image2 {
+    height: 450px ;
+    width:350px ;
+    margin-bottom: 0px;
+    border: 0px;
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(5, 151, 160, 0.15);
+    background-image: url(image/pngwing\ 5.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.feature-image3 {
+    height: 450px ;
+    width:350px ;
+    margin-bottom: 0px;
+    border: 0px;
+    border-radius: 300px 300px 0px 0px;
+    background-color:  lightgray ;
+    background-image: url(image/pngwing\ 7.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.feature-image-description {
+    margin-top: 10px;
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
 }
