@@ -57,11 +57,10 @@ main section {
     font-weight: 800;
 }
 .section-description {
-    width: 500px;
     color: rgba(39, 39, 39, 0.60);
+    text-align: center;
     font-size: 18px;
-    margin-left:150px;
-   
+    font-weight: 400;
 }
 .feature-flower {
     margin: 0 240px 0px 240px;
@@ -176,6 +175,12 @@ main section {
     align-items: center;
     text-align: center;
 }
+.social-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
 
 .social-image-container {
     display: flex;
@@ -186,4 +191,36 @@ main section {
 .image-cart {
    height: 300px;
    width: 250px;
+}
+
+.subscribtion-content {
+    margin: 0 145px 0px 145px;
+    padding: 100px 0px 0px 0px ;
+    align-items: center;
+    text-align: center;
+    background-image: url(image/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    height: 200px;
+    
+}
+.subscribtion-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.subscribtion-details {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18 px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+.subscribtion-input-box {
+    width: 600px;
+    height:50px ;
+    background: #fff;
+    border: 0px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 18px;
+
 }
