@@ -4,6 +4,17 @@
 body {
     font-family:  Lato ;
 }
+.btn-primary {
+    padding: 20px 43px;     
+    align-items: center;
+    gap: 10px;
+    background: #E55473;
+    border: 0px;
+    border-radius: 5px;
+    margin-top: 5px;
+
+}
+
 .header {
     background: rgba(229, 84, 115, 0.10);
    padding-bottom: 0;
@@ -34,13 +45,27 @@ body {
     line-height: 30px;
     margin-top: 5px;
 }
-.btn-primary {
-    padding: 20px 43px;     
-    align-items: center;
-    gap: 10px;
-    background: #E55473;
-    border: 0px;
-    border-radius: 5px;
-    margin-top: 5px;
+main section {
+    margin-top: 100px;
+}
 
+.feature-flower {
+    align-items: center;
+
+}
+
+.section-title {
+    text-align: center;
+    color: #272727;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 800;
+}
+.section-description {
+    text-align: center;
+    width: 500px;
+    margin-left: 500px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+   
 }
