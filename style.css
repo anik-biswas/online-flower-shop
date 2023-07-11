@@ -120,3 +120,24 @@ main section {
     line-height: 35px;
     text-decoration-line: underline;
 }
+
+.support-section {
+    margin: 0 205px;
+    padding: 80px;
+    border-radius: 5px;
+    background: rgba(39, 39, 39, 0.05);
+}
+
+.support-section-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.support-section-info {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 35px;
+}
+
