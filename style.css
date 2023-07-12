@@ -225,6 +225,30 @@ main section {
 
 }
 
+.new-collection {
+    margin: 0px;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+}
+.new-image-container {
+    display: flex;
+    margin: 30px 240px 100px 240px;
+    justify-content: space-between;
+    align-items: center;
+}
+.new-image-cart {
+    height: 300px;
+    width: 250px;
+    border: 0;
+    border-radius: 80px 80px;
+}
+.image-name{
+    margin-top: 10px;
+    font-size: 18px;
+    
+}
+
 .footer-section {
     margin-top: 100px;
     background: #111010;
