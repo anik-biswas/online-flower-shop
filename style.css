@@ -2,7 +2,24 @@
     margin: 0px;
 }
 body {
-    font-family:  Lato ;
+    font-family: 'Lato', sans-serif;
+   
+}
+main section {
+    margin-top: 100px;
+}
+
+.section-title {
+    color: #272727;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 800;
+}
+.section-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
 }
 .btn-primary {
     padding: 20px 43px;     
@@ -15,7 +32,7 @@ body {
     color: #fff;
 
 }
-
+/*Header section */
 .header {
     background: rgba(229, 84, 115, 0.10);
    padding-bottom: 0;
@@ -46,22 +63,8 @@ body {
     width: 400px;
 
 }
-main section {
-    margin-top: 100px;
-}
 
-.section-title {
-    color: #272727;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 800;
-}
-.section-description {
-    color: rgba(39, 39, 39, 0.60);
-    text-align: center;
-    font-size: 18px;
-    font-weight: 400;
-}
+/*Feature flower section */
 .feature-flower {
     margin: 0 240px 0px 240px;
     padding: 100px;
@@ -120,7 +123,7 @@ main section {
     line-height: 35px;
     text-decoration-line: underline;
 }
-
+/*support section */
 .support-section {
     margin: 0 205px;
     padding: 80px;
@@ -140,7 +143,7 @@ main section {
     font-weight: 600;
     line-height: 35px;
 }
-
+/*special offer section */
 .special-offer {
     padding: 50px 140px 50px 260px;
     background: rgba(229, 84, 115, 0.05);
@@ -193,6 +196,8 @@ main section {
    width: 250px;
 }
 
+/*subscribtion section */
+
 .subscribtion-content {
     margin: 0 145px 0px 145px;
     padding: 100px 0px 0px 0px ;
@@ -224,7 +229,7 @@ main section {
     font-size: 18px;
 
 }
-
+/*new collection section */
 .new-collection {
     margin: 0px;
     align-items: center;
@@ -246,9 +251,9 @@ main section {
 .image-name{
     margin-top: 10px;
     font-size: 18px;
-    
-}
 
+}
+ /*footer section */
 .footer-section {
     margin-top: 100px;
     background: #111010;
